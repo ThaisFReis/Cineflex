@@ -1,0 +1,149 @@
+
+.ticketPage {
+    position: absolute;
+    width: 80%;
+    height: fit-content;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*
+  .ticketPage h1 {
+    color: white;
+    font-size: 40px;
+  }
+  
+  .ticketPage h2 {
+    color: gold;
+    font-size: 40px;
+    margin: 15px 0;
+  }
+  
+  .ticketPage p {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .ticketInfo {
+    background-color: rgba(99, 99, 99, 0.288);
+    outline: 1px solid rgba(255, 255, 255, 0.09);
+    outline-offset: -15px;
+    border-radius: 20px;
+    width: 70%;
+    height: fit-content;
+    top: 80px;
+    margin: 80px auto;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ticketContainer {
+    width: 70%;
+    height: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movieName {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .sessionInfo {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .ticket {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .buyer {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .buyer p {
+    margin-top: 15px;
+  }
+  */
+
+.ticketPage h1{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  
+  color: white; 
+}
+
+
+button.home{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  margin: 50px auto;
+  background-color: transparent;
+  text-decoration: none;
+  border: 3px solid gold;
+  border-radius: 10px;
+
+}
+
+button.home p{
+  margin-right: 20px;
+  height: 60px;
+  margin: 5px 15px;
+
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+button .home:hover{
+  animation: pulsate 1s ease-in-out;
+  background-color: gold;
+  color: rgb(49, 49, 49);
+}
+
+@keyframes pulsate{
+  0%{
+      box-shadow: 
+      0 0 5px #ffe15d,
+      0 0 10px #f7d200;
+  }
+}
